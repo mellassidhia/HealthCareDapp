@@ -1,0 +1,159 @@
+/* App.css */
+
+body {
+  background: linear-gradient(to bottom, #6a11cb, #2575fc); 
+  color: #333; 
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #6a11cb; 
+}
+
+.account-info,
+.owner-info {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: #333; 
+}
+
+.form-section {
+  margin-bottom: 30px;
+  padding: 25px;
+  border: 1px solid #dfe6e9;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #fdfbfb, #ebedee);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+  font-size: 1.5rem;
+  color: #6a11cb; 
+  margin-bottom: 15px;
+}
+
+.input-field {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  font-size: 1rem;
+  border: 1px solid #b2bec3;
+  border-radius: 5px;
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #6a11cb; 
+  box-shadow: 0 0 5px rgba(106, 17, 203, 0.5);
+}
+
+.action-button {
+  display: block;
+  width: 100%;
+  background: linear-gradient(90deg, #6a11cb, #2575fc); 
+  color: white;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: all 0.4s ease-in-out; 
+}
+
+.action-button:hover {
+  background: linear-gradient(90deg, #2575fc, #6a11cb); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  transform: scale(1.05); 
+}
+
+.action-button:active {
+  background: linear-gradient(90deg, #3b82f6, #9333ea); 
+  transform: scale(0.97); 
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); 
+}
+
+
+.records-section {
+  margin-top: 40px;
+  color: #6a11cb;
+}
+
+.record-card {
+  padding: 20px;
+  border: 1px solid #dcdde1;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.record-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.record-card p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #2d3436;
+}
+
+.record-card p strong {
+  font-weight: 700;
+  color: #6a11cb; 
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .form-section {
+    padding: 15px;
+  }
+
+  .action-button {
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+
+  .record-card p {
+    font-size: 0.9rem;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #dfe6e9;
+  margin: 20px 0;
+}
