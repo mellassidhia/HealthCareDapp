@@ -81,13 +81,14 @@ The app will be available at http://localhost:3000.
 
 ## Project Structure
 
-/src
-├── components  
-│   └── Healthcare.js       # Main React component
-├── styles  
-│   └── App.css             # Styling for the DApp
-├── App.js                  # Entry point for the app
-└── index.js                # Renders the React app
+- **/src**: Contains all the source code for the application.
+  - **/components**: This directory holds the React components used in the application.
+    - `Healthcare.js`: The main React component that encapsulates the core functionality of the DApp.
+  - **/styles**: This directory contains the CSS files for styling the application.
+    - `App.css`: The main stylesheet for the DApp.
+  - `App.js`: The main entry point for the application, where the app is initialized and routed.
+  - `index.js`: The file responsible for rendering the React app into the DOM.
+
 
 ## Smart Contract
 
