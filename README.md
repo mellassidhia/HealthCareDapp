@@ -82,12 +82,12 @@ The app will be available at http://localhost:3000.
 ## Project Structure
 
 /src
-├── components
-│   └── Healthcare.js     # Main React component
-├── styles
-│   └── App.css           # Styling for the DApp
-├── App.js                # Entry point for the app
-└── index.js              # Renders the React app
+├── components  
+│   └── Healthcare.js       # Main React component
+├── styles  
+│   └── App.css             # Styling for the DApp
+├── App.js                  # Entry point for the app
+└── index.js                # Renders the React app
 
 ## Smart Contract
 
