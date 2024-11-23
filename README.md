@@ -41,6 +41,7 @@ cd healthcare-dapp
 ### 2. Install Dependencies
 ```bash
 npm install
+npm install ethers
 ```
 ## 3. Configure the Contract
 
@@ -53,7 +54,7 @@ Before running the application, you need to configure the contract address and A
 ### 4. Run the Application
 
 ```bash
-npm install
+npm start
 ```
 The app will be available at http://localhost:3000.
 
